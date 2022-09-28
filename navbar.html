@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width:80%;
+            height:200px;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            margin: auto;
+            cursor: pointer;
+        }
+        #container>div:nth-child(6){
+            display: grid;
+             grid-template-columns: repeat(2,1fr); 
+             height: 20px;
+             justify-content: space-evenly;
+           
+             
+            
+        }
+        button{
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        button:hover{
+           
+            cursor: pointer;
+            background-color:orangered;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div><img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" alt=""></div>
+        <div>JOB SEARCH</div>
+        <div>WORK FROM HOME</div>
+        <div>CAREER TIPS</div>
+        <div>MORE</div>
+        <div>
+            <button>
+                JOBSEEKERLOGIN
+            </button>
+            <button>
+                FOREMPLOYEE
+        </button>
+        </div>
+    </div>
+</body>
+</html>
