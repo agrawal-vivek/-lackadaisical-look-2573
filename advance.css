@@ -1,0 +1,127 @@
+#container{
+    width:80%;
+    height:200px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: auto;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: -100px;
+    padding-top: 50px;
+}
+#container>div:nth-child(6){
+    display: grid;
+     grid-template-columns: repeat(2,1fr); 
+     height: 20px;
+     
+     
+    
+}
+
+button{
+    border-radius: 5px;
+    margin-right: 10px;
+    height:30px;
+    width: 150px;
+   
+}
+button:hover{
+   
+    cursor: pointer;
+    background-color:orangered;
+}
+
+#inputdiv{
+    width: 60%;
+    height: 800px;
+}
+
+#searchbutton{
+    width: 70%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: blue;
+    color:white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.inputsection{
+    /* border:1px solid red; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.inputsection > input ,select{
+    width: 80%;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.inputsection1{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    gap:15px;
+    font-size: 16px;
+}
+
+.inputsection1 > input{
+    height: 35px;
+    width:38%;
+}
+
+.checkboxtype{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#imagediv{
+    height: 350px;
+    width: 80%;
+}
+
+#addbelow{
+    width: 60%;
+    height: 180px;
+    margin-left: 20px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#addbelow > p,h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#Footer{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: auto;
+    background-color: blue;
+    color: white;
+    padding-bottom: 50px;
+    
+    
+}
+#Footer>div{
+
+    grid-template-columns: repeat(1,1fr);
+    border: 0px solid red;
+    text-align: center;
+    line-height: 30px;
+    
+}
+#Footer>div>div:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

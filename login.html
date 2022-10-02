@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        #maindiv{
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+        h1{
+            color: blue;
+        }
+        h1+p{
+            color:red;
+            font-size: 30px;
+        }
+        #inputdiv>input{
+            text-align: center;
+            /* width:30%; */
+            /* height: 30px; */
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        
+        #btn>#sign-in:hover{
+            background-color: blue;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        h3{
+            color: red;
+
+
+        }
+        h2{
+            color:gray
+        }
+        h2+p{
+            font-size: 20px;
+
+        }
+        
+        #footer>p>button{
+            background-color: blue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <h1>Welcome!</h1>
+        <p>Log in Using your Monster Credentials</p>
+        <div id="inputdiv">
+            <input type="text" placeholder="E-mail/Mobile"><br><br>
+            <input type="password" placeholder="Password">
+        </div>
+        <p style="text-align:center;text-decoration: underline;">Forget Password</p>
+        <div id="btn">
+            <button id="sign-in">Login</button>
+        </div>
+        <h3>
+            Or,Login via OTP
+        </h3>
+        <h2>OR</h2>
+        <p>with your social network</p>
+        <button>Login with Google</button>
+        <button>Login with Facebook</button>
+        <div id="Footer">
+            <h2>New to Monster?</h2>
+            <p>Create your profile now and be visible to the top
+                 recruiters in the world </p>
+                 <button style="background-color:blue ; font-weight: bold;font-size: 20px;cursor: pointer;">Register with us</button>
+        </div>
+      
+
+    </div>
+</body>
+</html>
+<script>
+    let btn=document.querySelector("#sign-in").addEventListener("click", signin);
+
+
+
+function signin(event) {
+  event.preventDefault();
+  window.location.href="index.html"
+
+}
+</script>

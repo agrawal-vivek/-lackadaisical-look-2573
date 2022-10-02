@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Job Search</title>
+    <Link rel="stylesheet" href="./advance.css">
+
+</head>
+<body>
+    <div style="height:auto">
+        <!-- Navbar -->
+        <div id="container">
+            <div><img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" alt=""></div>
+            <div id="jobsearch" onclick="jobsearch()">JOB SEARCH</div>
+            <div>WORK FROM HOME</div>
+            <div>CAREER TIPS</div>
+            <div>MORE</div>        
+            <div>
+                <button id="log" onclick="fun()">
+                    JOB SEEKER LOGIN
+                </button>
+                <button>
+                    FOR EMPLOYEE
+                </button>
+            </div>
+        </div>
+        <div style="display:flex;height:650px;;width: 90%;;margin: auto;justify-content: space-evenly;">
+            <div id="inputdiv">
+                <div>
+                <h1 style="margin-left: 20px;">Advance Job Search</h1>
+                <div class="inputsection">
+                    <input placeholder="keyword"/>
+                </div>
+                <div class="inputsection1">
+                    <input placeholder="Experience"/>
+                    <input placeholder="Location"/>
+                </div>
+                <div class="inputsection">
+                    <select>
+                        <option>Industry</option>
+                        <option>Advertising/PR/Event</option>
+                        <option>Advertising/Dairy</option>
+                        <option>Agriculture</option>
+                        <option>Alternate Energy</option>
+                    </select>
+                </div>
+                <div class="inputsection">
+                    <select>
+                        <option>Function</option>
+                        <option>Media</option>
+                        <option>Business Analyst</option>
+                        <option>Manager</option>
+                    </select>
+                </div>
+                <div class="inputsection">
+                    <select>
+                        <option>Role</option>
+                        <option>Developer</option>
+                        <option>Analyst</option>
+                        <option>Manager</option>
+                    </select>
+                </div>
+                <div class="inputsection">
+                    <select>
+                        <option>Minimum Salary</option>
+                        <option>10000</option>
+                        <option>20000</option>
+                        <option>30000</option>
+                    </select>
+                </div>
+                <div class="inputsection">
+                    <select>
+                        <option>Maximum Salary</option>
+                        <option>100000</option>
+                        <option>200000</option>
+                        <option>300000</option>
+                    </select>
+                </div>
+                <div class="checkboxtype">
+                    <input type="checkbox"/><label>Jobs that don't include salary</label>
+                </div>
+                <div>
+                    <button id="searchbutton">Search</button>
+                </div>
+            </div>
+            </div>
+            <div style="width: 30%">
+                <div>
+                    <img id="imagediv" src="https://tpc.googlesyndication.com/simgad/8786157940949868501" alt=""/>
+                </div>
+                <div id="addbelow">
+                    <h3>Exact Job Search</h3>
+                    <p>Looking for an Keyword<br/> search?<br/> Put double quotes around <br/> the "Keyword" to search for <br/> exact word/phrases</p>
+                </div>
+            </div>
+        </div>
+        <div id="Footer">
+
+            <div>
+                <h3>Job Seeker</h3>
+                <div>Job Search</div>
+                <div> Job Seekers Login</div>
+                <div>Upload Resume</div>
+                <div>Career Advice</div>
+                <div> Search Tips</div>
+                <div>Free Job Alert</div>
+                <div>Find Companies</div>
+            </div>
+            <div>
+                <h3>Employers</h3>
+                <div>Employer Login</div>
+                <div>Job Posting</div>
+                <div>Access Resume Database</div>
+                <div>Join mRecruiters</div>
+                <div> Buy Online</div>
+                
+            </div>
+            <div>
+                <h3>Monster</h3>
+                <div>About Us</div>
+                <div>Contact Us</div>
+                <div>Career with us</div>
+                <div>Send Feedback</div>
+                <div>Testimonials</div>
+                <div>HTML Sitemap</div>
+                <div>XML Sitemap</div>
+                <div>Jobs App</div>
+            </div>
+            <div>
+                <h3>Stay Connected</h3>
+                <div>Facebook</div>
+                <div>Twitter</div>
+                <div>Linkedin</div>
+                <div>Instagram</div>
+                <div>Youtube</div>
+                <div><img src="https://media.monsterindia.com/trex/public/default/images/android-footer.png" alt=""></div>
+                <div><img src="https://media.monsterindia.com/trex/public/default/images/ios-footer.png" alt=""></div>
+            </div>
+            <div>
+                <h3>Legal</h3>
+                <div>Security & Fraud</div>
+                <div>Privacy Policy</div>
+                <div>Terms of Use</div>
+                <div>Beware of Fraudsters</div>
+                <div>Be Safe</div>
+                <div>Complaints</div>
+                
+            </div>
+        
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+
+<script>
+    let btn=document.getElementById("jobsearch")
+    btn.addEventListener("click",jobsearch)
+    function jobsearch(){
+        window.location.href="adavnce.html"
+
+    }
+</script>
